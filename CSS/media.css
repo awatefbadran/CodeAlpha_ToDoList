@@ -1,0 +1,100 @@
+/* Tablet */
+@media (max-width: 768px) {
+
+  .container{
+    max-width: 90%;
+    padding: 22px;
+  }
+
+  h1{
+    font-size: 22px;
+  }
+
+  .task-form{
+    flex-direction: column;
+  }
+
+  .task-form button{
+    width: 100%;
+  }
+
+  .task-item{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .actions{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+  }
+
+  .actions button{
+    flex: 1;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+  body{
+    padding: 12px;
+  }
+
+  .container{
+    padding: 18px;
+    border-radius: 16px;
+  }
+
+  h1{
+    font-size: 20px;
+  }
+
+  .task-form input{
+    padding: 10px;
+  }
+
+  .task-form button{
+    padding: 10px;
+  }
+
+  .task-item{
+    padding: 10px;
+  }
+
+  .actions button{
+    font-size: 11px;
+    padding: 6px;
+  }
+
+  .custom-alert{
+    right: 10px;
+    left: 10px;
+    text-align: center;
+  }
+
+  .modal-content{
+    width: 90%;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+
+  .container{
+    max-width: 600px;
+  }
+
+  h1{
+    font-size: 26px;
+  }
+
+  .task-form input{
+    padding: 14px;
+  }
+
+  .task-form button{
+    padding: 14px 20px;
+  }
+}
